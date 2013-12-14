@@ -46,9 +46,9 @@ include "includes/tuna.css.php";?>
     <div class="pure-menu pure-menu-open pure-menu-horizontal pure-u-1">
       <ul>
           <!-- Dirty hack here -->
-          <li<?php if($navActive == 0) echo(' class="pure-menu-selected"')?>><a href="#">Home</a></li>
-          <li<?php if($navActive == 1) echo(' class="pure-menu-selected"')?>><a href="#">Status</a></li>
-          <li<?php if($navActive == 2) echo(' class="pure-menu-selected"')?>><a href="#">Traffic</a></li>
+          <li<?php if($navActive == 0) echo(' class="pure-menu-selected"')?>><a href="/index.php">Home</a></li>
+          <li<?php if($navActive == 1) echo(' class="pure-menu-selected"')?>><a href="/status.php">Status</a></li>
+          <li<?php if($navActive == 2) echo(' class="pure-menu-selected"')?>><a href="/traffics.php">Traffic</a></li>
       </ul>
     </div>
     </div>
