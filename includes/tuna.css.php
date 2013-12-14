@@ -190,13 +190,13 @@ ul {
   width: 20%;
 }
 #mirrorlist .description {
-  width: 50%;
+  width: 53%;
 }
 #mirrorlist .update {
   width: 20%;
 }
 #mirrorlist .help {
-  width: 10%;
+  width: 7%;
 }
 
 @media screen and (max-width: 768px) {
