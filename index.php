@@ -1,6 +1,7 @@
 <?php 
 $navActive = 0;
 include "includes/before.php";
+include "includes/distros.php";
 ?>
 
 <div id="content" class="pure-u-1">
@@ -17,37 +18,23 @@ include "includes/before.php";
             <th class="help">帮助</th>
           </tr>
           </thead>
-          <tbody>
-          <tr>
-            <td class="distribution"><a href="/archlinux/">Archlinux</a></td>
-            <td class="description">最好的操作系统</td>
-            <td class="update">1秒前</td>
+		  <tbody>
+			<?php foreach ($specs as $spec): ?>
+			<?php $info = $status[$spec[0]] ?>
+		  <tr>
+			<td class="distribution">
+				<a name="<?php echo $spec[0] ?>" href="<?php echo $spec[0] ?>/" title="<?php echo $spec[1] ?>">
+				<?php echo $spec[0] ?>
+				</a>
+			</td>
+			<td class="description">
+				<?php echo $spec[1] ?>
+			<td class="update">
+				<?php echo $info['stamp'] ? date('Y-m-d H:i', $info['stamp']) : '' ?>
+				</td>
             <td class="help"><a href="#">点我</a></td>
           </tr>
-          <tr>
-            <td class="distribution"><a href="/gentoo/">Gentoo</a></td>
-            <td class="description">很好很耗电的操作系统</td>
-            <td class="update">1秒前</td>
-            <td class="help"><a href="#">点我</a></td>
-          </tr>
-          <tr>
-            <td class="distribution"><a href="/debian/">Debian</a></td>
-            <td class="description">非常好的操作系统</td>
-            <td class="update">1秒前</td>
-            <td class="help"><a href="#">点我</a></td>
-          </tr>
-          <tr>
-            <td class="distribution"><a href="/ubuntu/">Ubuntu</a></td>
-            <td class="description">还凑合的操作系统</td>
-            <td class="update">1秒前</td>
-            <td class="help"><a href="#">点我</a></td>
-          </tr>
-          <tr>
-            <td class="distribution"><a href="/deepin/">Deepin</a></td>
-            <td class="description">山寨的操作系统</td>
-            <td class="update">1秒前</td>
-            <td class="help"><a href="#">点我</a></td>
-          </tr>
+			<?php endforeach ?>
           </tbody>
         </table>
 
