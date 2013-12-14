@@ -76,11 +76,6 @@
 	  </div>
 	</div>
   </div> <!-- end of content div -->
-  <div id="footer" class="pure-u-1">
-	<div class="ack">
-	  <p>本站的网络和硬件由清华大学网络工程研究中心提供支持。</p>
-	</div>
-  </div> <!-- end of footer div -->
   <?php include("includes/after.php")?>
 
 
