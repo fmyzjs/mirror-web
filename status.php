@@ -4,7 +4,7 @@ include "includes/distros.php";
 include "includes/disk.php";
 ?>
 
-<div class="mirrors-stat">
+<div class="mirrors-stat pure-u-1">
 <h2>状态统计</h2>
 <div id="status-table">
 <h3>各镜像状态表<a href="#status-table-footnote" title="到表尾脚注">↓</a></h3>
