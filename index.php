@@ -4,23 +4,6 @@ include "includes/before.php";
 <?php
 date_default_timezone_set('Asia/Shanghai');
 ?>
-<div id="wrapper">
-<div id="header">
-<h1>清华大学开源镜像站</h1>
-<div class="tagline">
-Portal of Tsinghua University Open Source Software Mirror Sites
-</div>
-</div> <!-- end of header div -->
-<?php
-if (file_exists('notice.html') && filesize('notice.html') != 0) {
-?>
-	<script type="text/javascript">
-		humane.log("<?php echo addslashes(str_replace(array("\r", "\n"), '', file_get_contents('notice.html')));?>",
-{timeout: 5000, clickToClose: true});
-	</script>
-<?php
-}
-?>
 <div id="content">
 <h2>简介</h2>
 <p>
@@ -80,14 +63,6 @@ Groups</a>，或直接向 Google Groups 的邮件列表 thu-opensource-mirror-ad
 <p>本站的网络和硬件由清华大学网络工程研究中心提供支持。</p>
 </div>
 </div> <!-- end of footer div -->
-<div id="google_translate_element" style="display:none;"></div><script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'zh-CN', includedLanguages: 'de,en,es,fr,ja,ko,ru,zh-TW', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT, multilanguagePage: true}, 'google_translate_element');
-}
-</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-        
-
-</div> <!-- end of div wrapper -->
 <?php
 include "includes/after.php";
 ?>
