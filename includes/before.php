@@ -1,5 +1,6 @@
 <?php
 ini_set('default_socket_timeout', 3);    
+date_default_timezone_set('Asia/Shanghai');
 include "includes/bydistro.php";
 ?>
 <!doctype html>

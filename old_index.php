@@ -1,9 +1,6 @@
 <?php
 include "includes/before.php";
 ?>
-<?php
-date_default_timezone_set('Asia/Shanghai');
-?>
 <div id="content">
 <h2>简介</h2>
 <p>
