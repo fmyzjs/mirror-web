@@ -1,6 +1,4 @@
 <?php
-ini_set('default_socket_timeout', 3);
-include "includes/bydistro.php";
 include "includes/before.php";
 ?>
 <?php
@@ -240,3 +238,6 @@ echo sprintf("总容量：%s&nbsp;&nbsp;已使用：%s&nbsp;&nbsp;剩余容量�
 <div id="diskusage" style="height:15px"></div>
 </p>
 </div> <!-- end of mirrors-stat div -->
+<?php
+include "includes/after.php";
+?>

@@ -1,11 +1,6 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-	<title>Bandwidth Utilization of MIRRORS.TUNA.TSINGHUA.EDU.CN</title>
-	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-	<meta content="noarchive" name="robots" />
-    </head>
-    <body>
+<?php
+include "includes/before.php";
+?>
 	<h1>Bandwidth Utilization of mirrors.tuna.tsinghua.edu.cn</h1>
 		<h2>Thanks to <a href="http://debian.org/">Debian GNU/Linux</a>, <a href="http://perl.org">Perl</a>, <a href="http://oss.oetiker.ch/rrdtool/">RRDTool</a>, <a href="http://ftp.isc.org/isc/cron/">cron</a>, <a href="http://erlang.org">Erlang</a>, and <a href="http://yaws.hyber.org">Yaws</a></h2>
 	<table>
@@ -96,5 +91,6 @@
 		</tr>
 
 		</table>
-		</body>
-		</html>
+<?php
+include "includes/after.php";
+?>
