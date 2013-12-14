@@ -6,7 +6,7 @@
 
 <div id="content" class="pure-u-1">
   <div class="padding-1-lr pure-g-r">
-	<div class="pure-u-2-3 pure-g-r">
+	<div class="pure-u-3-4 pure-g-r">
 	  <div class="pure-u-1 padding-1-lr">
 		<h2> 镜像列表 </h2>
 		<table id="mirrorlist" border="0" cellspacing="0" cellpadding="0" > 
@@ -40,8 +40,7 @@
 
 		</div>
 	  </div>
-	  <div class="pure-u-1-3">
-		<div class="aside">
+	  <div class="pure-u-1-4">
 		  <div class="padding-1-lr">
 			<h2>简介</h2>
 			<div class="tuna-logo">
@@ -51,10 +50,9 @@
 			</div>
 			<p> 欢迎来到清华大学开源镜像网站，它由清华大学开源镜像站管理团队维护管理。</p>
 		  </div>
-		</div>
 
 
-		<div class="pure-u-1">
+		  <div class="padding-1-lr">
 		  <p>本站可以在校内外通过 IPv4/IPv6 使用。
 		  <br />本站域名有：</p>
 		  <ul>
@@ -66,7 +64,7 @@
 		  <p><strong>镜像使用所需配置参见 <a href="http://wiki.tuna.tsinghua.edu.cn/MirrorUseHowto">Wiki</a></strong>。</p>
 		</div>
 
-		<div class="pure-u-1">
+		  <div class="padding-1-lr">
 
 		  <p>如果您有任何问题或建议，请在我们的 <a href="http://issues.tuna.tsinghua.edu.cn">issue tracker</a>
 		  上提交 bug，或者访问我们的<a
